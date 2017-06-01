@@ -39,9 +39,9 @@ public class BookListing {
 
     @Override
     public String toString() {
-        return "BookListing{" +
-                "books=" + books +
+        return "BookListing: " + '\n' +
+                "books = " + books +
                 ", count=" + count +
-                '}';
+                '\n';
     }
 }

@@ -32,8 +32,8 @@ public class BookstoreApplication implements CommandLineRunner {
 	@Override
 	public void run(String... strings) throws Exception {
 		System.out.println(message);
-//		bookService.addBook(new Book("title1","author1"));
-//		bookService.addBook(new Book("title2","author2"));
+		bookService.addBook(new Book(1,"title1","author1"));
+		bookService.addBook(new Book(2, "title2","author2"));
 //
 //		System.out.println(bookService.getListingData());
 	}
